@@ -99,19 +99,71 @@ nav{
 
 
 .project img{
-  width: 32em;
-  margin-top: 1.6em;
-  margin-left: .8em;
-  margin-right: .8em;
+  width: 100%;
+  height: auto;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: block;
 }
 
 
-.project{
-  display: block;
+
+.project {
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pro *{
+  box-sizing: border-box;
+}
+.pro{
+  position: relative;
   text-align: center;
 
 }
+.pro{
+  width: 32em;
+  margin: .8em .8em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(10,10,10,0.9);
+}
+
+
+
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pro:hover .overlay{
+  opacity: 1;
+  pointer-events: none;
+}
+
+
+
 
 
 
