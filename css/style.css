@@ -53,7 +53,6 @@ nav{
 .header{
   display: block;
   width: 65.6em;
-
   margin: auto;
 }
 
@@ -326,9 +325,26 @@ img{
 
 @media screen and (max-width: 1280px){
 
+
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1074px){
+  .header h2, .header p{
+    text-align: center;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width: 600px;
+  }
+  .header h2{
+    top: 6em;
+  }
+
+  .header p{
+    top: 11em;
+  }
 
 }
 
