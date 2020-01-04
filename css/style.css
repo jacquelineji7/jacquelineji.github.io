@@ -26,13 +26,22 @@ nav{
 }
 .container ul li a{
   text-decoration: none;
-  color: black;
+  color: #606060;
   float: right;
   margin-left: 1em;
   margin-right: 1em;
 }
+
+#active {
+  color: #00BFEF;
+}
+
 .container ul li a:hover{
   border-bottom: 1px solid black;
+}
+
+#active {
+  border-bottom: 1px solid #00BFEF;
 }
 
 .container{
@@ -68,7 +77,7 @@ nav{
   line-height: 8px;
 }
 .footer p{
-  color: #505050;
+  color: #606060;
 }
 
 
@@ -91,13 +100,13 @@ nav{
 
 #mail, #linkedin, #feedback{
   text-decoration: none;
-  color: #0050a8;
+  color: #00BFEF;
   font-weight: 500;
   border-bottom: 1px solid white;
 }
 
 #mail:hover, #linkedin:hover, #feedback:hover{
-  border-bottom: 1px solid #0050a8;
+  border-bottom: 1px solid #00BFEF;
 }
 
 
@@ -106,8 +115,9 @@ nav{
 .project img{
   width: 100%;
   height: auto;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
   display: block;
+  border-radius: 5px;
 }
 
 
@@ -144,7 +154,7 @@ nav{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(10,10,10,0.9);
+  background-color: rgba(0,191,239,0.95);
 }
 
 
@@ -328,7 +338,13 @@ img{
   color: black;
 }
 
+@media screen and (min-width: 1120px){
+  nav{
+    margin-bottom: 8em;
+  }
 
+
+}
 /*  big desktop
 
 @media screen and (min-width: 1439px){
