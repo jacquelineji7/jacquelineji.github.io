@@ -120,12 +120,19 @@
 
 
 
+
+
+
   #mail, #linkedin, #feedback, #pear-sh{
     text-decoration: none;
     color: #01ABD6;
     font-weight: 500;
     border-bottom: 1px solid white;
   }
+
+#about-footer p{
+  line-height: 1.6em;
+}
 
 
   #mail:hover, #linkedin:hover{
