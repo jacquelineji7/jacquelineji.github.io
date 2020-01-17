@@ -133,6 +133,16 @@
     font-weight: 500;
     border-bottom: 1px solid white;
   }
+  .candid a{
+    text-decoration: none;
+    color: #232323;
+    font-weight: 500;
+    border-bottom: 1px dashed black;
+  }
+  .candid a:hover{
+    border-bottom: 1px solid #232323;
+    background-color:rgba(35, 114, 229, 0.2);
+  }
 
 #about-footer p{
   line-height: 1.6em;
@@ -142,6 +152,8 @@
   #mail:hover, #linkedin:hover{
     border-bottom: 1px solid #01ABD6;
   }
+
+
 
   #feedback, #pear-sh{
     text-decoration: none;
@@ -598,13 +610,19 @@
     width: 100%;
   }
 
+  .bloop img{
+    margin-top: -1em;
+    margin-bottom: 1em;
+  }
+
   }
 
   @media screen and (max-width: 667px){
 
+
     #feedback{
       float: left;
-      margin-left: 1em;
+      margin-left: 10px;
     }
 
 
@@ -612,10 +630,12 @@
       text-align: left;
     }
 
-     ul, h3, p, h4,h2{
-      margin-left: 1em;
-      margin-right: 1em;
+     ul, h3, p,h2,h4{
+      margin-left: 8px;
+      margin-right: 8px;
     }
+
+
      ul{
       margin-top: 0em;
       margin-bottom: 5em;
@@ -651,6 +671,7 @@
       top:0;
       z-index: 2;
     }
+
   }
 
 
