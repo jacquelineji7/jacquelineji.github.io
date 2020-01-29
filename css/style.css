@@ -71,6 +71,9 @@
     margin-top: 1em;
     float: left;
   }
+  #mental{
+    width: 40%;
+  }
 
 
   .header h2, .header p{
@@ -109,6 +112,11 @@
     margin-bottom: 8em;
   }
 
+.me-em {
+  font-style: normal;
+  font-weight: 600;
+  color: #4D63B1;
+}
 
   #about-footer{
     width: 40em;
@@ -248,7 +256,7 @@
     margin-bottom: 4em;
   }
 
-  .candid dl {
+  .candid dl, .medi dl {
     padding: 0.5em;
     margin-top: 4em;
     margin-bottom: 4em;
@@ -290,6 +298,15 @@
     color: #2372e5;
   }
 
+  .medi dt {
+    float: left;
+    clear: left;
+    text-align: right;
+    font-weight: bold;
+    color: #4D63B1;
+  }
+
+
   .bloop dt {
     float: left;
     clear: left;
@@ -307,7 +324,7 @@
     content: "|";
   }
 
-  .candid dt::after, .bloop dt::after, .starterhacks dt::after  {
+  .candid dt::after, .bloop dt::after, .starterhacks dt::after , .medi dt::after {
     content: "|";
   }
 
@@ -316,14 +333,14 @@
     padding: 0 0 1em 0;
   }
 
-  .candid dd, .starterhacks dd, .bloop dd {
+  .candid dd, .starterhacks dd, .bloop dd, .medi dd {
     margin: 0 0 0 110px;
     padding: 0 0 1em 0;
   }
 
 
 
-  .pear, .candid, .starterhacks,.bloop, .about{
+  .pear, .candid, .starterhacks,.bloop, .about, .medi{
     width: 40em;
     display: block;
     margin: auto;
@@ -374,6 +391,9 @@
   .candid h3{
     color: #2372e5;
   }
+  .medi h3{
+    color: #4D63B1;
+  }
   .starterhacks h3{
     color: #3C56A5;
   }
@@ -387,7 +407,7 @@
     margin-top: .4em;
   }
 
-  .candid li,.bloop li, .starterhacks li, .starterhacks p{
+  .candid li,.bloop li, .starterhacks li, .starterhacks p, .medi li{
     margin-left: -2em;
     margin-top: .4em;
   }
@@ -621,13 +641,13 @@
   width: 100%;
   height: auto;}
 
-  .pear, .about, .starterhacks, .candid, .bloop{
+  .pear, .about, .starterhacks, .candid, .bloop, .medi{
     width: auto;
     margin-left: 2em;
     margin-right: 2em;
   }
 
-  .pear img, .about img, .starterhacks img, .candid img, .bloop img, #demo{
+  .pear img, .about img, .starterhacks img, .candid img, .bloop img, #demo, .medi img{
     width: 100%;
   }
 
@@ -754,7 +774,7 @@
       width: 100%;
     }
 
-    .pear img, .about img, .starterhacks img, .candid img, .bloop img{
+    .pear img, .about img, .starterhacks img, .candid img, .bloop img, .medi img{
       width: 100%;
     }
 
@@ -814,7 +834,7 @@
     }
 
     /* subpage */
-    .pear, .about, .starterhacks, .candid, .bloop{
+    .pear, .about, .starterhacks, .candid, .bloop, .medi{
       width: auto;
       margin-left: .8em;
       margin-right: .8em;
