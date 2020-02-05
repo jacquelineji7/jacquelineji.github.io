@@ -65,6 +65,7 @@
     display: block;
   }
 
+
   .container nav img{
     width: 2em;
     margin-left: 3em;
@@ -220,7 +221,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0,191,239,0.95);
+    background-color: rgba(0,0,0,0.95);
 
   }
 
