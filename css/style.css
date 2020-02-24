@@ -493,9 +493,14 @@
        .header h2, .header p,.footer h3, .footer p, .footer a{
          text-align: center;
        }
-       #linkedin{
+       #linkedin, #about-h3,#portrait{
+         text-align: center;
          display: block;
          margin: auto;
+       }
+       #portrait{
+         width: 42%;
+         margin-top: 1em;
        }
      }
   /* ipad end */
