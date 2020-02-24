@@ -76,6 +76,11 @@
     width: 40%;
   }
 
+  #portrait{
+    border-radius: 100px;
+    width: 32%;
+  }
+
 
   .header h2, .header p{
     text-align: left;
