@@ -80,6 +80,11 @@
     border-radius: 100px;
     width: 32%;
   }
+  #tea{
+    border-radius: 0;
+    top: 0;
+    margin-top: -2em;
+  }
 
 
   .header h2, .header p{
@@ -180,6 +185,8 @@
    #feedback:hover, #pear-sh:hover{
      border-bottom: 1px solid #446A12;
    }
+
+
 
 
 
