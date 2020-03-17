@@ -269,7 +269,7 @@
     margin-bottom: 4em;
   }
 
-  .candid dl, .medi dl {
+  .candid dl, .medi dl,.maint dl {
     padding: 0.5em;
     margin-top: 4em;
     margin-bottom: 4em;
@@ -328,6 +328,14 @@
     color: #489CA7;
   }
 
+  .maint dt {
+    float: left;
+    clear: left;
+    text-align: right;
+    font-weight: bold;
+    color: #F57C00;
+  }
+
   .teammates {
     line-height: 1em;
   }
@@ -337,7 +345,7 @@
     content: "|";
   }
 
-  .candid dt::after, .bloop dt::after, .starterhacks dt::after , .medi dt::after {
+  .candid dt::after, .bloop dt::after, .starterhacks dt::after , .medi dt::after, .maint dt::after {
     content: "|";
   }
 
@@ -346,14 +354,14 @@
     padding: 0 0 1em 0;
   }
 
-  .candid dd, .starterhacks dd, .bloop dd, .medi dd {
+  .candid dd, .starterhacks dd, .bloop dd, .medi dd , .maint dd{
     margin: 0 0 0 110px;
     padding: 0 0 1em 0;
   }
 
 
 
-  .pear, .candid, .starterhacks,.bloop, .about, .medi{
+  .pear, .candid, .starterhacks,.bloop, .about, .medi, .maint{
     width: 40em;
     display: block;
     margin: auto;
@@ -376,6 +384,35 @@
   #bloop1, #bloop2{
     margin-bottom: 1.6em;
 
+  }
+
+  #quote{
+    font-weight: 600;
+  }
+
+  .maintFigma{
+    text-decoration: none;
+    color: #F57C00;
+    font-weight: 500;
+  }
+
+  .maintFigma:hover{
+    border-bottom: 1px solid #F57C00;
+
+  }
+
+
+
+  .quote{
+    color: #5e5e5e;
+  }
+  .quote em{
+    color: #000;
+    font-weight: 500;
+  }
+
+  .hmw{
+    font-weight: 500;
   }
   img{
     width: 40em;
@@ -415,15 +452,21 @@
     color: #489CA7;
   }
 
+  .maint h3{
+    color: #F57C00;
+  }
+
   .pear li{
     margin-left: -2em;
     margin-top: .4em;
   }
 
-  .candid li,.bloop li, .starterhacks li, .starterhacks p, .medi li{
+  .candid li,.bloop li, .starterhacks li, .starterhacks p, .medi li, .maint li{
     margin-left: -2em;
     margin-top: .4em;
   }
+
+
 
   .section1, .section2, .section3, .section4, .section5, .section-final, .section-next{
     margin-top: 8em;
@@ -450,6 +493,20 @@
   .footer h3{
     color: black;
   }
+
+#QR, #maintEmail{
+  width: 40%;
+}
+.optional{
+  color: #808080;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
 
   @media screen and (min-width: 1120px){
 
@@ -659,13 +716,13 @@
   width: 100%;
   height: auto;}
 
-  .pear, .about, .starterhacks, .candid, .bloop, .medi{
+  .pear, .about, .starterhacks, .candid, .bloop, .medi, .maint{
     width: auto;
     margin-left: 2em;
     margin-right: 2em;
   }
 
-  .pear img, .about img, .starterhacks img, .candid img, .bloop img, #demo, .medi img{
+  .pear img, .about img, .starterhacks img, .candid img, .bloop img, #demo, .medi img, .maint img{
     width: 100%;
   }
 
@@ -721,6 +778,8 @@
       border-radius: 3px;
       margin-top: 1.6em;
     }
+
+
 
 
 
@@ -792,7 +851,8 @@
       width: 100%;
     }
 
-    .pear img, .about img, .starterhacks img, .candid img, .bloop img, .medi img{
+
+    .pear img, .about img, .starterhacks img, .candid img, .bloop img, .medi img, .maint img{
       width: 100%;
     }
 
@@ -852,7 +912,7 @@
     }
 
     /* subpage */
-    .pear, .about, .starterhacks, .candid, .bloop, .medi{
+    .pear, .about, .starterhacks, .candid, .bloop, .medi, .maint{
       width: auto;
       margin-left: .8em;
       margin-right: .8em;
