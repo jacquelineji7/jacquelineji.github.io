@@ -401,7 +401,10 @@
 
   }
 
-
+.maintBold{
+  font-weight: 600;
+  font-style: normal;
+}
 
   .quote{
     color: #5e5e5e;
