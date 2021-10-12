@@ -11,13 +11,19 @@ body{
 
 }
 
+
+
 :root{
   --black: #323233;
+  --black02:#5B5B63;
   --grey:#8E9197;
-  --grey02:#AFB3BB;
+  --lightGrey:#DADBDF;
+  --lightGrey02:#efefef;
+  
+  --greyHover:#F2F3F5;
+  --lightGrey03:#F5F6F6;
   --nav-height:74px;
 }
-
 
 
 
@@ -432,6 +438,60 @@ nav .navbar-nav .active a{
 .language{
   margin-right: 2vh;
 }
+
+
+
+
+
+/* language start */
+
+
+.language {
+  color:var(--grey);
+}
+.language a{
+  color: var(--black);
+  text-decoration: none;
+  /* margin-left: 4px;
+  margin-right: 4px; */
+
+}
+
+.language .EN {
+  color:var(--grey);
+  text-decoration: none;
+  padding: 8px 12px 8px 8px;
+  border-radius: 100px;
+}
+.language .EN:hover {
+   color:var(--black);
+   background-color: var(--greyHover);
+}
+
+
+ 
+.EN{
+  display: flex;
+  vertical-align: middle ;
+}
+
+.EN a {
+  display:inline-block;
+  text-align: center;
+}
+
+
+.EN i{
+  margin-right: 4px;
+  vertical-align: middle ;
+}
+
+
+.language{
+  margin-right: 2vh;
+}
+
+/* language switch end */
 
 /* 
 @media (min-width: 768px) {
